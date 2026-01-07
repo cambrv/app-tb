@@ -1,0 +1,16 @@
+Pérdida: 0.0793, Precisión: 0.9845
+Matriz de Confusión:
+[[290   0]
+ [  9 281]]
+
+Reporte de Clasificación:
+              precision    recall  f1-score   support
+
+      Normal       0.97      1.00      0.98       290
+          TB       1.00      0.97      0.98       290
+
+    accuracy                           0.98       580
+   macro avg       0.98      0.98      0.98       580
+weighted avg       0.98      0.98      0.98       580
+
+AUC-ROC: 0.9999

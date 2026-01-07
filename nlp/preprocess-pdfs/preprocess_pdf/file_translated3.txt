@@ -1,0 +1,186 @@
+Tuberculosis: Documento Técnico Referenciado (Estilo APA 7ª Edición) 
+1. INTRUCCIÓN Y DEFINIÓN 
+La tuberculosis (TB) es una Enfirmedad Infecciosa causa por la bacteria 
+Mycobacterium tuberculosis, Que Afecta Principalmente A Los Pulmones, Aunque También 
+Puede Comprometer oTros Órganos. SE transmite por el el aire mediante la expulsión de 
+Microgotas por persona con Tb Activa Pulmonar Al Toser, Hablar o Estornudar (CDC, 
+2023; Quien, 2023). 
+SE estima que aproximadamete una cuarta parte de la poblacia Mundial está infectada 
+de forma latente, pero solo entre el 5 % y 10 % desarrollarán la Enfirmedad Activa en 
+Algún Momento de Su Vida (Who, 2023; Merck Manual, 2022). La Mayoría de Las 
+Infecios Iniciales Hijo Controladas Por El Sistema Inmune, Quedando En Estado Latente 
+Y Asintomós (Manual Manual, 2022). 
+Factores como la infecciosa por vih, la diabetes mal controlada, la malidad de la malidad, El 
+Tabaquismo y El Consumo Excesivo de alcohol incrementan El Riesgo de Progresión A TB 
+Activa (OMS, 2023). 
+ 
+2. Historia de la Enfermedad 
+La tuberculosis es una de las enfermedades más antiguas que afectan a los seres 
+humanos. Evidencias de su existencia se Han Hallado en Restos óseos Neolyticos Datados 
+En alrededo del 10.000 a.c., y se la Conocía en la Antigüedad como "Tisis" o "Consunció" 
+(Seip, 2019). Durante El Siglo XIX, EN Pleno Romanticismo, La Enfirmedad Era Tan Comúnn 
+Que Se La Denominaba "La Plaga Blanca". 
+Un Gran Avance Ocurrió en 1882, Cuando Robert Koch anunció el Descubrimiento del 
+Bacilo Tuberculoso, Lo Cual Permitió el Diagnóstico Bacteriológico (OPS, 2023). En 1921, 
+Albert Calmette y Camille Guelin Desarrollaron La Vacuna BCG, un Partir de una Cepa 
+Atenuada de Mycobacterium bovis (Asociación Española de Pediatría, 2021). En 1944 SE 
+Descubrió la Estreptomicina, Seguida de la Isoniacida en 1952 y la rifampicina en 1960 
+(Seip, 2019), Lo Cual Convirtió a la Tb en una Enfirmedad curable. 
+ 
+3. Etiología y Patogenia 
+La tb es causa por M. tuberculosis, un bacilo ácido-alcohol resistente, aeróbico 
+Estricto, Con Crecimiento lento y una desplegable celular rica en lícidos (Manual de Merck, 2022). 
+SE transmite por vía Aérea. Al Inhalar Microgotas Infectadas, Los Bacilos Alcanzan los 
+Alvéolos Pulmonares, Donde Son Fagocitados por Macrófagos. Algunos Bacilos Sobrevividos 
+Dentro de Estos, Provocando inflamación local y la formación de granulomas (Merck 
+Manual, 2022). 
+En la Mayoría de los Casos, El Sistema Inmunitario Controla La Infección, y Esta Queda en 
+Estado Latente. Si el Sistema Inmune SE Debilita, La TB Puede Reactivarse, Liberando Bacilos 
+Activos y Volviendo al Individuo Contagioso (Manual de Merck, 2022). 
+ 
+4. Formas clínicas de la tuberculosis 
+Existen DiFerentes Formas Clínicas de TB: 
+•  
+Latente: El Paciente No Presenta Síntomas Ni Contagia. Solo se detecta mediano 
+Pruebas inMunológicas (CDC, 2023). 
+•  
+Pulmonar (Activa): es la forma más común y contagiosa, conesntomas 
+Respiratorios y Generales. 
+•  
+Extrapulmonar: afecta otros Órganos como ganglios, pleura, meninges, huesos, 
+etc. 
+•  
+Miliar: deseminácico Hematógena Grave, Con Múltiples Microfocos en varios 
+Órganos (Manual de Merck, 2022). 
+ 
+5. Síntomas y signos clínicos 
+Los Síntomas Clásicos de Tb Pulmonar incluyen: 
+•  
+Tos persistente ≥3 semanas, con o sin hemoptisis 
+•  
+Fiebre Vespertina, Sudores Nocturnos 
+•  
+Pérdida de Peso, anorexia, fatiga 
+•  
+Dolor Torácico (CDC, 2023) 
+EN TB Extrapulmonar, Los Síntomas dependen del Órgano Afectado. Por eJemplo, 
+Adenopatías (ganglionar), Dolor óseo (Ósea), Síntomas Meníngeos (meningitis 
+tuberculosa), Entre oTros (manual de Merck, 2022). 
+ 
+6. Métodos de Diagnkóstico Inados 
+El Diagnóstico de TB incluye: 
+•  
+Pruebas de Infecció Latente: 
+O  
+Prueba de tuberculina (Mantoux) 
+O  
+Pruebas Igra (Quantiferon) (CDC, 2023) 
+•  
+Deteción de Enfirmedad Activa: 
+O  
+Radiografía de Tórax 
+O  
+Baciloscopia de Esputo 
+O  
+Cultivo (Método de Referencia) 
+O
+
+Prueba molecular xpert mtb/rif, que detecta bacilos y resistencia a 
+Rifampicina en Menos de 2 Horas (quien, 2023) 
+O  
+Deteción de Antímenes Lam en Orina en Pacientes VIH+ 
+ 
+7. Tratamiento Recomendado 
+El Tratamiento Estándar Para Tb Sensible consisten en: 
+•  
+Fase intensiva (2 meses): Isoniacida, Rifampicina, Pirazinamida, Etambutol 
+•  
+Fase de Continuació (4 Meses): Isoniacida y Rifampicina (CDC, 2023; Mayo 
+Clínica, 2024) 
+Para tb latente se recomiendan regímenes más cortos, como rifampicina por 4 meses, o 
+Isoniacida + Rifapentina Semanal Por 3 Meses. 
+EN CASOS DE TB MULTRESISTENTE (MDR), SE Utilizan Esquemas más prolongados 
+Bedaquilina, Linezolid, Delamanid o pretomanid, con una duración de 6 a 18 meses (quien, 
+2023). 
+ 
+8. Resistencia y TB multirresistente 
+La MDR-TB Resistte al Menos A Isoniacida y Rifampicina. La tb xdr incluye resistencia a 
+Fluoroquinolonas y A Fármacos de Segunda línea inyectables (quien, 2023). El Manejo 
+Requiere combinaciones individualizadas y supervisión estricta, dado el Bajo Porcentaje 
+de curación si no se trata adecuadamento. 
+ 
+9. Prevante 
+Las estrategias de prevención incluyen: 
+•  
+Vacunación bcg en recién nacidos (Asociacia española de Pediatría, 2021) 
+•  
+Deteción y Tratamiento de Casos (puntos) 
+•  
+Tratamiento de la tb latente 
+•  
+Ventilacia de espacios cerrados 
+•  
+Uso de Mascarillas en Hospisiones y Prisiones (CDC, 2023; OMS, 2023) 
+ 
+10. Recomendaciones Generales 
+•  
+Para Pacientes: Cumplir el Tratamiento completo, Acudir A Controles y No 
+Abandonar La Medicació (CDC, 2023). 
+•  
+Para Profesionales de Salud: Sospechar Tb Ante Tos crónica, Fiebre y Pérdida de 
+peso; Respiratoria de la protección de la USAR; Realizar Tamizajes y Notificar Casos. 
+•  
+A Nivel Comunitario: Facilitar Acceso A Diagnostico, Tratamiento Gratuito, 
+Campañas Educativas y Apoyo Social. 
+ 
+ 
+ 
+11. Situaciónis Epidemiológica Global, Regional Y en Ecuador 
+Según La Oms, EN 2023 SE Notificaron 10,8 MILLONES DE NUEVOS CASOS DE TB Y 1,25 MILLONES 
+de Muertes (quien, 2023). En América Latina, SE Reportaron 342.000 Casos, Conumentos 
+En Países Como Brasil y Perú (Ops, 2023). 
+En Ecuador, El Ministerio de Salud Pública Informó un AUNTO DEL 63 % EN LOS CASOS 
+Notificados Entre 2022 y 2025, Sido la Provincia del Guayas la Más Afectada (MSP, 2025; 
+Primicias, 2025). El País ha implementado Nueva Guías Clínicas y Tecnologías Como 
+GenExpert en Guayaquil y Quito para Fortalecer El Diagnnostico (MSP, 2025). 
+ 
+12. ImpactO Social y Económico 
+La tb género altos Costos para las familias, por consultas, transporte, Pérdida de Trabajo y 
+Estigmatizació Social. Estudios en Brasil Indican que Hasta El 50 % de los Hogares Con 
+Pacientes Con Tb Incurren en Gastos Catastróficos (> 20 % de sus ingresos Anuales), 
+Aumentando al 78 % en Casos de TB Resistente (Revista Pesquisa Fapesp, 2023). La oms 
+Propone que para 2030 Ninguna Familia Enfrente Dichos Costos (OMS, 2023). 
+ 
+13. Referencias 
+•  
+Asociatura Española de Pediatría. (2021).  BCG: Cien Años Contra la Tuberculosis. 
+https://vacunasaep.org  
+•  
+Centros para el control y la prevención de enfermedades. (2023).  Datos de tuberculosis (TB). 
+https://www.cdc.gov/tb  
+•  
+Clínica Mayo. (2024).  Tuberculosis - Diagnóstico y Tratamiento. 
+https://www.mayoclinic.org/es  
+•  
+Manual de Merck. (2022).  Tuberculosis - Versión profesional. 
+https://www.merckmanuals.com  
+•  
+Ministerio de Salud Pública del Ecuador. (2025).  Informe Nacional de tuberculosis. 
+https://www.salud.gob.ec  
+•  
+Organización Panamericana de la Salud. (2023).  Tuberculosis en Las Américas. 
+https://www.paho.org  
+•  
+Primicias. (2025).  Casos de tuberculosis Creciero 63% en Ecuador. 
+https://www.primicias.ec  
+•  
+Revista Pesquisa Fapesp. (2023).  La tuberculosis consumo más del 20% de los 
+Ingresos familiares.  https://revistapesquisa.fapesp.br  
+•  
+Sociedad Española de Infectología Pediátrica. (2019).  Historia de la tuberculosis. 
+https://www.seipweb.es  
+•  
+Organización Mundial de la Salud. (2023)
+
+.  Hoja informativa de tuberculosis.  https://www.who.int
+

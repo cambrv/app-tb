@@ -1,0 +1,25 @@
+# Node.js / Ionic
+node_modules/
+www/
+platforms/
+plugins/
+.DS_Store
+.env
+
+# Python (Entorno Virtual)
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Archivos del Sistema
+.vscode/
+.idea/
+*.log
+*.sqlite3
+.bat
+
+# Configuración de Render
+*.render.yaml

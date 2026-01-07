@@ -1,0 +1,16 @@
+Pregunta,k,Tiempo Total (ms),Tiempo Modelo (ms),Tokens Prompt Estimados
+¿Qué síntomas presenta la tuberculosis pulmonar?,1,7510.0,6450.0,165
+¿Qué síntomas presenta la tuberculosis pulmonar?,2,5130.0,5080.0,372
+¿Qué síntomas presenta la tuberculosis pulmonar?,3,8510.0,8460.0,517
+¿Qué síntomas presenta la tuberculosis pulmonar?,4,4690.0,4630.0,686
+¿Qué síntomas presenta la tuberculosis pulmonar?,5,5830.0,5790.0,839
+¿Cómo se contagia la tuberculosis?,1,6390.0,6370.0,160
+¿Cómo se contagia la tuberculosis?,2,7880.0,7840.0,367
+¿Cómo se contagia la tuberculosis?,3,5720.0,5660.0,562
+¿Cómo se contagia la tuberculosis?,4,12900.0,12850.0,725
+¿Cómo se contagia la tuberculosis?,5,4250.0,4230.0,870
+¿Cuánto dura el tratamiento contra la tuberculosis?,1,4460.0,4430.0,167
+¿Cuánto dura el tratamiento contra la tuberculosis?,2,4950.0,4880.0,362
+¿Cuánto dura el tratamiento contra la tuberculosis?,3,6470.0,6420.0,400
+¿Cuánto dura el tratamiento contra la tuberculosis?,4,3230.0,3200.0,563
+¿Cuánto dura el tratamiento contra la tuberculosis?,5,3960.0,3910.0,590

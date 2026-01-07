@@ -1,0 +1,12 @@
+Resultados en el conjunto de prueba (ResNet50)
+Mejor Umbral (seleccionado en validación): 0.3000
+Precisión: 0.7971
+Sensibilidad (Sensitivity): 0.9345
+Especificidad (Specificity): 0.7621
+F1-Score: 0.8603
+Exactitud (Accuracy): 0.8483
+AUC-ROC: 0.9476
+
+Matriz de Confusión:
+[[221  69]
+ [ 19 271]]

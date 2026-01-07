@@ -1,0 +1,57 @@
+<ion-toolbar>
+  <ion-buttons slot="start">
+    <ion-button (click)="closeModal()">
+      <ion-icon name="close-outline"></ion-icon>
+    </ion-button>
+  </ion-buttons>
+  <ion-title>Recomendaciones AI</ion-title>
+</ion-toolbar>
+
+<ion-content>
+  <div class="chat-header">
+    <div class="preview-wrap image-preview">
+      <ng-container *ngIf="imagePreview; else noPreview">
+        <img [src]="imagePreview" alt="X-ray preview" class="preview-img" />
+      </ng-container>
+      <ng-template #noPreview>
+        <div class="no-preview">
+          Preview no disponible
+          <div *ngIf="isDicom && fileName">
+            Archivo DICOM: <strong>{{ fileName }}</strong>
+          </div>
+        </div>
+      </ng-template>
+    </div>
+
+    <div class="prob-summary">
+      <strong>Probabilidad de TB:</strong> {{ tbProbability }}%
+    </div>
+  </div>
+
+  <!-- Lista de mensajes -->
+  <div class="chat-messages" aria-live="polite" aria-atomic="false">
+    <div
+      *ngFor="let msg of chatMessages"
+      [ngClass]="{ 'user-msg': msg.isUser, 'ai-msg': !msg.isUser }"
+      class="chat-bubble"
+    >
+      <!-- Render progresivo: usamos renderedText y tu pipe markdownFormat -->
+      <div [innerHTML]="msg.renderedText | markdownFormat"></div>
+
+      <!-- Cursor/parpadeo mientras tipea -->
+      <span *ngIf="msg.isTyping" class="caret" aria-hidden="true"></span>
+    </div>
+  </div>
+
+  <!-- Input -->
+  <ion-item lines="none" class="chat-input">
+    <ion-input
+      [(ngModel)]="currentMessage"
+      placeholder="Escribe tu pregunta..."
+      (keydown.enter)="sendMessage()"
+    ></ion-input>
+    <ion-button fill="clear" (click)="sendMessage()" [disabled]="!currentMessage">
+      <ion-icon name="send"></ion-icon>
+    </ion-button>
+  </ion-item>
+</ion-content>

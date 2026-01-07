@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: validate-image-backend
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python server.py

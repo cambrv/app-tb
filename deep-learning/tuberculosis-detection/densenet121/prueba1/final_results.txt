@@ -1,0 +1,8 @@
+Resultados en el conjunto de prueba:
+Mejor Umbral: 0.2100
+Precisión: 0.9685
+Sensibilidad: 0.9552
+Especificidad: 0.9690
+F1-Score: 0.9618
+Exactitud (Accuracy): 0.9621
+AUC-ROC: 0.9943

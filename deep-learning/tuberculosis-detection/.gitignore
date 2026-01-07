@@ -1,0 +1,13 @@
+# Ignorar la carpeta dataset
+dataset/
+
+# Ignorar cualquier archivo __pycache__
+__pycache__/
+
+# Ignorar entornos virtuales
+venv-tb/
+
+# Ignorar archivos temporales de Python
+*.pyc
+*.pyo
+*.pyd

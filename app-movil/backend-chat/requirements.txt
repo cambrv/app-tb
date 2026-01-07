@@ -1,0 +1,11 @@
+
+Flask==2.2.3
+Werkzeug==2.2.3
+requests==2.28.2
+opencv-python==4.11.0.86
+flask-cors
+openai==0.28.1
+python-dotenv
+faiss-cpu
+sentence-transformers
+numpy

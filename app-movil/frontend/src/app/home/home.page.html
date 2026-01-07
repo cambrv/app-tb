@@ -1,0 +1,163 @@
+<ion-header>
+  <ion-toolbar>
+    <div class="logo-abs">
+      <img src="assets/logo.gif" alt="TB diagnosis" />
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+
+<!-- PÁGINA PRINCIPAL -->
+<ion-content class="ion-padding content-flex">
+  <div class="page-wrapper">
+    <div class="content-container">
+      <!-- ====================== Sección de carga ====================== -->
+      <ng-container *ngIf="!showResults">
+        <h1 class="page-title">Sube una foto de la radiografía</h1>
+
+        <ng-container *ngIf="!hasSelectedImage">
+          <div class="upload-container">
+            <div class="file-upload-area">
+              <ion-icon name="image-outline"></ion-icon>
+              <p style="font-size: 14px;">Selecciona un archivo</p>
+              <input type="file" class="file-input" (change)="onFileChange($event)"
+                accept=".dcm,.dicom,application/dicom,application/dicom+json,application/dicom+xml,image/*">
+            </div>
+
+            <!-- FORMATOS ACEPTADOS -->
+            <div class="accepted" *ngIf="!hasSelectedImage" aria-live="polite">
+              <div class="accepted-head">
+                <span class="accepted-label">Formatos aceptados:</span>
+
+                <!-- Botón de consejos -->
+                <div class="tooltip" (mouseenter)="placeTip($event)" (mouseleave)="hideTip()"
+                  (focusin)="placeTip($event)" (focusout)="hideTip()">
+
+                  <ion-button fill="clear" size="small" class="tips-btn" aria-label="Consejos para la foto">
+                    <ion-icon name="help-circle-outline"></ion-icon>
+                  </ion-button>
+
+                  <span #tip class="tip-bubble" [class.show]="tipVisible" [class.below]="tipBelow">
+                    Evita <strong>fotos borrosas</strong> y utiliza únicamente
+                    <strong>radiografías de tórax</strong>.
+                  </span>
+                </div>
+
+
+              </div>
+
+              <div class="chips">
+                <ion-badge>JPG</ion-badge>
+                <ion-badge>JPEG</ion-badge>
+                <ion-badge>PNG</ion-badge>
+                <ion-badge>WEBP</ion-badge>
+                <ion-badge>DICOM</ion-badge>
+              </div>
+            </div>
+
+
+            <div class="divider">
+              <span>y</span>
+            </div>
+          </div>
+        </ng-container>
+
+        <ng-container *ngIf="hasSelectedImage">
+          <div class="preview-container">
+            <div class="image-preview">
+              <img *ngIf="imageDataUrl; else noPreview" [src]="imageDataUrl" alt="X-ray preview"
+                style="max-width:100%; height:auto;" />
+              <ng-template #noPreview>
+                <div class="no-preview">
+                  Preview no disponible
+                  <div *ngIf="isDicomSelected && dicomSelectedName" class="dicom-name">
+                    Archivo DICOM: <strong>{{ dicomSelectedName }}</strong>
+                  </div>
+                </div>
+              </ng-template>
+            </div>
+
+            <ion-button expand="block" class="change-image-button" (click)="resetImage()">
+              <ion-icon name="refresh-outline" slot="start"></ion-icon>
+              CAMBIAR ARCHIVO
+            </ion-button>
+          </div>
+        </ng-container>
+
+        <ion-button expand="block" class="continue-button" [disabled]="!hasSelectedImage || isValidating"
+          (click)="analyzeImage()">
+          CONTINUAR
+        </ion-button>
+      </ng-container>
+
+      <!-- ====================== Sección de resultados ====================== -->
+      <ng-container *ngIf="showResults">
+        <h1 class="page-title">Resultados</h1>
+
+        <div class="result-container">
+          <div class="image-container">
+            <img *ngIf="imageDataUrl; else noPreview" [src]="imageDataUrl" alt="X-ray preview"
+              style="max-width:100%; height:auto;" />
+            <ng-template #noPreview>
+              <div class="no-preview">
+                Preview no disponible
+                <div *ngIf="isDicomSelected && dicomSelectedName" class="dicom-name">
+                  Archivo DICOM: <strong>{{ dicomSelectedName }}</strong>
+                </div>
+              </div>
+            </ng-template>
+          </div>
+
+
+          <div class="diagnosis-result" [ngClass]="getRiskClass(tbProbability)">
+            <circle-progress *ngIf="circleKey" [percent]="getFixedProbability()"
+              [outerStrokeColor]="getRiskColor(tbProbability)" [innerStrokeColor]="getRiskColor(tbProbability)"
+              [title]="getDisplayedProbability()" [showTitle]="true"></circle-progress>
+
+            <div class="text-container">
+              <h2 class="result-title">Probabilidad de TB</h2>
+              <p class="result-description">{{ getProbabilityDescription() }}</p>
+            </div>
+          </div>
+
+          <div class="recommendation-section">
+            <h3 class="section-title">Recomendaciones</h3>
+            <p class="recommendation-text">
+              <ng-container *ngIf="isLoadingRecommendation; else recommendationReady">
+                <span class="dot-loader">
+                  <span>.</span><span>.</span><span>.</span>
+                </span>
+              </ng-container>
+              <ng-template #recommendationReady>
+                {{ generatedRecommendation }}
+              </ng-template>
+            </p>
+
+            <ion-button expand="block" class="chat-button" (click)="openChatRecommendation()"
+              [disabled]="isDicomSelected && !imageDataUrl">
+              <ion-icon name="chatbubbles-outline" slot="start"></ion-icon>
+              CONSULTAR MÁS RECOMENDACIONES
+            </ion-button>
+
+          </div>
+        </div>
+      </ng-container>
+      <!-- DISCLAIMER -->
+      <div class="disclaimer-wrap" *ngIf="!hasSelectedImage" role="note" aria-live="polite">
+        <div class="disclaimer-box">
+          <ion-icon name="information-circle-outline"></ion-icon>
+          <span><strong>Advertencia:</strong> Esta aplicación no reemplaza el criterio médico.</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</ion-content>
+
+
+<div *ngIf="showResults" class="fab-floating">
+  <ion-fab-button (click)="resetPage()">
+    <ion-icon name="refresh-outline"></ion-icon>
+  </ion-fab-button>
+  <span class="fab-label">NUEVO</span>
+</div>

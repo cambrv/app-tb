@@ -1,0 +1,49 @@
+$color-main:      #050a30;
+$color-bg:        #ffffff;
+$color-bg-soft:   #f9f9f9;
+$color-surface-1: #f1f5ff;
+$color-surface-2: #fff8e7;
+$color-accent:    #f5c26b;
+
+$state-low:       #e6f8ea;
+$state-medium:    #fff5e0;
+$state-high:      #ffeaef;
+
+$ink-strong:      #03061b;
+
+$radius-12:       12px;
+$radius-16:       16px;
+$radius-24:       24px;
+$radius-30:       30px;
+$radius-pill:     999px;
+
+$font-14:         14px;
+$font-18:         18px;
+$font-20:         20px;
+$font-24:         24px;
+
+$shadow-soft:     0 1px 4px rgba(0,0,0,0.1);
+$shadow-card:     0 2px 4px rgba(0,0,0,0.1);
+
+@mixin surface-outline($bg: $color-bg, $border: $color-main, $radius: $radius-16) {
+  background-color: $bg;
+  border: 2px solid $border;
+  border-radius: $radius;
+}
+
+@mixin btn-variant($bg, $ink: $color-main, $radius: $radius-12, $pad-y: 16px) {
+  --background: #{$bg};
+  --color: #{$ink};
+  --border-radius: #{$radius};
+  --padding-top: #{$pad-y};
+  --padding-bottom: #{$pad-y};
+  --box-shadow: none;
+  font-weight: bold;
+  ion-icon { margin-right: 8px; }
+}
+
+:root {
+  --tb-color-main: #{$color-main};
+  --tb-bg: #{$color-bg};
+  --tb-text: #{$font-14};
+}
