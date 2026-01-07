@@ -1,0 +1,6 @@
+# Modelos grandes
+*.h5
+*.tflite
+*.onnx
+*.pt
+*.pth
