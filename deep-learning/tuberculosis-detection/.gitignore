@@ -1,5 +1,6 @@
-# Ignorar la carpeta dataset
+# Ignorar las carpetas
 dataset/
+deep-learning/tuberculosis-detection/tbnet/
 
 # Ignorar cualquier archivo __pycache__
 __pycache__/

@@ -1,0 +1,27 @@
+Classification Report:
+
+normal:
+  precision: 0.9771
+  recall: 0.9816
+  f1-score: 0.9794
+  support: 870.0000
+tb:
+  precision: 0.9815
+  recall: 0.9770
+  f1-score: 0.9793
+  support: 870.0000
+accuracy: 0.9793
+macro avg:
+  precision: 0.9793
+  recall: 0.9793
+  f1-score: 0.9793
+  support: 1740.0000
+weighted avg:
+  precision: 0.9793
+  recall: 0.9793
+  f1-score: 0.9793
+  support: 1740.0000
+
+Sensitivity: 0.9770
+Specificity: 0.9816
+AUC: 0.9964
